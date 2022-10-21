@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body class="container">
+
+<header>
+  <%- include('./../partials/header'); %>
+</header>
+
+<main>
+<div class="row">
+  <div class="col-sm-8">
+    <div class="jumbotron">
+      <h1>This is Services Page</h1>
+      <h4>Dynamic Data:</h4>
+      <div>Our Services</div>
+      <ul>
+        <% data.forEach(function(dataPoint) { %>
+          <li>
+            <%= dataPoint %>
+          </li>
+        <% }); %>
+      </ul>
+  
+    </div>
+  </div>
+</div>
+</main>
+
+
+</body>
+</html>

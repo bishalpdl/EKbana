@@ -1,0 +1,8 @@
+{
+    "homepage": {
+        "username": "Ram",
+        "id" : 1
+    },
+    "services": ["Tailoring", "Delivery", "Manufacuring"],
+    "contact": 987654321
+}
